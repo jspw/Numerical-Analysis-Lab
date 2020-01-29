@@ -2,9 +2,6 @@ f=input("Enter function : ");
 a=input("Enter a :");
 b=input("Enter b: ");
 
-x0=(a*y(b)-b*y(a))/(y(b)-y(a));
-
-
 for i=1:100
   x0=a;
   x1=b;
@@ -22,8 +19,3 @@ for i=1:10
 end
 
 answer=p
-plot(error)
-grid on;
-title('Plot of error');
-xlabel('iterations');
-ylabel('Errors');
